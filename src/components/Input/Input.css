@@ -1,4 +1,6 @@
 .Input {
+  box-sizing: border-box !important;
+  overflow: hidden;
   margin-right: 4px;
   height: 40px;
   width: 187px;
