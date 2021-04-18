@@ -1,0 +1,36 @@
+.Button {
+  position: relative;
+  margin: 10px 3px !important;
+  float: left;
+  cursor: pointer;
+  width: 73px;
+  height: 36px;
+  background: #ebebeb;
+  border-radius: 3px;
+  box-shadow: 0px 6px rgba(0, 0, 0, 0.2);
+  color: #888;
+  line-height: 36px;
+  text-align: center;
+  user-select: none;
+  transition: all 0.2s ease;
+}
+.Button:active {
+  top: 4px;
+  background: white;
+}
+
+.Operator {
+  position: relative;
+  line-height: -25px;
+  background: #5357da;
+  color: white;
+}
+.Operator:hover {
+  background: #09d3ac;
+  box-shadow: 0px 4px #059075;
+  color: white;
+}
+.Operator:active {
+  top: 4px;
+  box-shadow: 0px 0px #09d3ac;
+}
